@@ -16,3 +16,5 @@ for est in range(5):
 
 if estoques_zerados:
     print(f"Produtos com estoque zerado: {', '.join(estoques_zerados)}")
+else:
+    print("Não á estoques zerados.")
